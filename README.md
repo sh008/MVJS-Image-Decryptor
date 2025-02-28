@@ -9,22 +9,6 @@ This is a simple Node.js application that decrypts image files (`*.png_`) from g
 
 ---
 
-## 📦 Project Structure
-
-```
-MVJS-Image-Decryptor/
-│
-├─ src/
-│    └─ app.js             # Main application script
-├─ data/                   # Example data folder with encrypted images
-├─ output_img/             # Decrypted images will be saved here
-├─ .gitignore              # Git ignore file
-├─ package.json            # Project metadata and dependencies
-└─ README.md               # Project documentation
-```
-
----
-
 ## 🛠️ Requirements
 - Node.js
 - npm
