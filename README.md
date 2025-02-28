@@ -4,7 +4,7 @@ This is a simple Node.js application that decrypts image files (`*.png_`) from g
 
 ## 🚀 How It Works
 1. **Input:** The user selects the root directory of the MVJS game.
-2. **Process:** The application searches for all encrypted image files (`*.png_`) in the `data` folder, decrypts them, and saves the decrypted `.png` files to the `output_img` directory.
+2. **Process:** The application searches for all encrypted image files (`*.png_`) in the `img` folder, decrypts them, and saves the decrypted `.png` files to the `output_img` directory.
 3. **Output:** Decrypted images are stored in `output_img` at the root of the selected directory.
 
 ---
@@ -50,7 +50,7 @@ Before:
 ```
 MVJS-Game/
 │
-├─ data/
+├─ img/
 │    ├─ image1.png_
 │    └─ image2.png_
 └─ other_folders/
@@ -60,7 +60,7 @@ After running the app:
 ```
 MVJS-Game/
 │
-├─ data/
+├─ img/
 │    ├─ image1.png_
 │    └─ image2.png_
 ├─ output_img/
