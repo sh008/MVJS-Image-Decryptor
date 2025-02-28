@@ -1,0 +1,15 @@
+{
+  "name": "nwjs_image_decryptor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "shayan",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^12.4.2"
+  }
+}
